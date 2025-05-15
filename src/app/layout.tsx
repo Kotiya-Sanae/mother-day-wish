@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "母亲节快乐",
   description: "献给我的母亲",
+  icons: {
+    icon: "/heart.svg"
+  },
 };
 
 export default function RootLayout({
