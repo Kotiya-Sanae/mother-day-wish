@@ -19,12 +19,12 @@ export default function MothersDayPage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-pink-50 to-purple-100">
-      {/* 飘落的花朵动画背景 */}
+      {/* 旋转花朵动画背景 */}
       <div className="fixed inset-0 overflow-hidden pointer-events-none">
         {[...Array(20)].map((_, i) => (
           <Flower 
             key={i}
-            className="absolute text-pink-200 animate-float"
+            className="absolute text-pink-200 animate-spin"
             style={{
               left: `${Math.random() * 100}%`,
               top: `${Math.random() * 100}%`,
